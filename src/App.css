@@ -1,4 +1,122 @@
-.App {
+/*************************
+css Global
+***************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+li {
+  cursor: pointer;
+}
+
+button {
+  box-shadow: 1px blue;
+  color: white;
+}
+
+
+
+
+
+
+
+/*************************
+navbar
+***************************/
+.navbar {
+  position: fixed;
+  background-color: white;
+  /* width: auto; */
+  height: 150px;
+  box-shadow: inset 0 0 1em blue, 0 0 2em blue;
+  /* border-bottom: 10px blue; */
+  /* border-bottom: 10px blue; */
+}
+
+.navbarFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/*************************
+Home
+***************************/
+.HomeDiv {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: auto;
+  height: auto;
+  /* text-align: center; */
+}
+
+.HomeDiv2 {
+  height: auto;
+  padding: 2px;
+  margin-left: 30px;
+}
+
+.pTravaillons {
+  text-transform: uppercase;
+  color: blue;
+}
+
+.spanDelphine {
+  color: blue;
+}
+
+
+/*************************
+aboutMe
+***************************/
+.aboutMeDiv {
+  margin-top: 300px;
+  margin-bottom: 300px;
+  /* width: auto; */
+  height: auto;
+  text-align: center;
+}
+
+.aboutFlex {
+  display: flex;
+}
+
+.aboutDelphine {
+  width: 30%;
+  margin-top: 200px;
+  margin-left: 200px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 1em blue, 0 0 2em blue;
+}
+
+
+/***********************************************
+Compétences
+*************************************************/
+.competencesDiv {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.containerCompetences {
+  height: 150px;
+  flex-wrap: wrap;
+  box-shadow: inset 0 0 1em grey, 0 0 2em grey;
+}
+
+.containerCompetences div {
+  margin-top: 40px;
+
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +153,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
