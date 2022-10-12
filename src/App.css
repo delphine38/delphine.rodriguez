@@ -28,6 +28,69 @@ button {
 /*************************
 navbar
 ***************************/
+nav {
+  height: 120px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  box-shadow: inset 0 0 1em aqua, 0 0 2em aqua;
+}
+
+.list {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+
+.items {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  /* faire disparaitre le bouton */
+  display: none;
+}
+
+
+/*************************
+navbar responsive max 500
+***********************************/
+@media screen and (max-width: 500px) {
+  .list {
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .items:nth-child(1) {
+    margin-top: 100px;
+    /* border-top: 1px solid aqua; */
+  }
+
+  .items {
+    height: 50px;
+    width: 100px;
+    border-bottom: 1px solid aqua;
+    line-height: 50px;
+  }
+
+  .btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+}
+
+
+
+/****************************/
+
+
 .navbar {
   position: fixed;
   background-color: white;
