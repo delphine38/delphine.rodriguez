@@ -3,6 +3,10 @@ import votreAge from '../images/projects/votreage.jpg';
 import theaAndMom from '../images/projects/theaandmom.jpg';
 import crudJavascript from '../images/projects/crudjavascript.jpg';
 
+
+import html from '../images/skills/html.jpg';
+
+
 const Realisations = () => {
   return (
     <div className='realisationsDiv'>
@@ -10,11 +14,13 @@ const Realisations = () => {
       <h2>Les projets que j'ai réalisés</h2>
 
 
+      
+
       <div className='container'>
         <div className='containerRealisations row'>
 
 
-        {/* découvre ton age en jours */}
+          {/* découvre ton age en jours */}
           <div className='realisations col-3'>
             <div className='realisationsRelative'>
                 {/* <a href={"https://votreage.netlify.app/"} className="aImageOpacity" target="_blank"> */}

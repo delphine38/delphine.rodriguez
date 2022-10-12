@@ -6,6 +6,8 @@ import javascript from '../images/skills/javascript.jpg';
 import react from '../images/skills/react.png';
 import github from '../images/skills/github.png';
 
+
+
 const Competences = () => {
   return (
     <div className='competencesDiv'>

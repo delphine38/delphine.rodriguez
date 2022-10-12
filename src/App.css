@@ -105,7 +105,7 @@ Compétences
   padding-bottom: 300px;
 }
 
-.containerCompetences .col-3 {
+.container .col-3 {
   height: 150px;
   flex-wrap: wrap;
   box-shadow: inset 0 0 1em grey, 0 0 2em grey;
@@ -121,7 +121,7 @@ Compétences
   margin-left: 20px;
 }
 
-.containerCompetences div {
+.containerCompetences {
   margin-top: 40px;
 
 }
