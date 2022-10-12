@@ -12,63 +12,65 @@ const Competences = () => {
       <p>Compétences</p>
       <h2>Ce que je continue d'améliorer à faire</h2>
 
-    <div className='container'>
-      <div className='containerCompetences row bg-danger'>
-        <div className='col-3'>
-          <img src= {html} alt="langage html" width="100px" height="100px" />
-        </div>
-        <div className='col-3'>
-          <h3>html</h3>
+      <div className='container'>
+        <div className='containerCompetences row'>
+          
+          <div className='competences col-3'>
+            <article>
+              <img src= {html} alt="langage html" width="100px" height="100px" />
+            </article>
+            <article>
+              <h3>html</h3>
+            </article>
+          </div>
+
+          <div className='competences col-3'>
+            <article>
+              <img src= {css} alt="css" width="100px" height="100px" />
+            </article>
+            <article>
+              <h3>css</h3>
+            </article>
+          </div>
+
+
+          <div className='competences col-3'>
+            <article>
+              <img src= {javascript} alt="javascript" width="100px" height="100px" />
+            </article>
+            <article>
+              <h3>javascript</h3>
+            </article>
+          </div>
+
+          <div className='competences col-3'>
+            <article>
+              <img src= {bootstrap} alt="librairie bootstrap" width="100px" height="100px" />
+            </article>
+            <article>
+              <h3>Bootstrap</h3>
+            </article>
+          </div>
+
+          <div className='competences col-3'>
+            <article>
+              <img src= {react} alt="framework react" width="100px" height="100px" />
+            </article>
+            <article>
+              <h3>React</h3>
+            </article>
+          </div>
+
+          <div className='competences col-3'>
+            <article>
+              <img src= {github} alt="versionning github" width="100px" height="100px" />
+            </article>
+            <article>
+              <h3>Github</h3>
+            </article>
+          </div>
         </div>
       </div>
-
-      <div className='containerCompetences row'>
-        <div className='col-6'>
-          <img src= {css} alt="css" width="100px" height="100px" />
-        </div>
-        <div className='col-6'>
-          <h3>css</h3>
-        </div>
-      </div>
-
-      <div className='containerCompetences row'>
-        <div className='col-6'>
-          <img src= {javascript} alt="javascript" width="100px" height="100px" />
-        </div>
-        <div className='col-6'>
-          <h3>Javascript</h3>
-        </div>
-      </div>
-
-      <div className='containerCompetences row'>
-        <div className='col-6'>
-          <img src= {bootstrap} alt="librairie bootstrap" width="100px" height="100px" />
-        </div>
-        <div className='col-6'>
-          <h3>Bootstrap</h3>
-        </div>
-      </div>
-
-      <div className='containerCompetences row'>
-        <div className='col-6'>
-          <img src= {react} alt="framework react" width="100px" height="100px" />
-        </div>
-        <div className='col-6'>
-          <h3>React</h3>
-        </div>
-      </div>
-
-      <div className='containerCompetences row'>
-        <div className='col-6'>
-          <img src= {github} alt="versionning github" width="100px" height="100px" />
-        </div>
-        <div className='col-6'>
-          <h3>Github</h3>
-        </div>
-      </div>
-
-    </div>
-
     </div>
   )
 }
