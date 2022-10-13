@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from 'react';
+
+//dans terminal : npm react-scroll
+import {Link} from 'react-scroll';
+
 // import Link from 'next/link';
 
 // intéraction et animation avec 
@@ -47,13 +51,15 @@ useEffect(() =>{
                     {/* </article> */}
         </article>
         {(toggleMenu || largeur > 500) && (
+
+            
             <ul className='list'>
-                <a href='/#home'><li className='items'>Accueil</li></a>
-                <a href='/#realisations'><li className='items'>Réalisations</li></a>
-                <a><li className='/#competences'>Compétences</li></a>
-            {/* <li className='items'>Accueil</li>
-            <li className='items'>Réalisations</li>
-            <li className='items'>Compétences</li> */}
+                <li className='items'>
+                    <Link to="#home" spy={true} smooth={true} offset={50} duration={500}>Accueil</Link>
+                </li>
+            <li className='items'>
+                <Link to="#realisations" spy={true} smooth={true} offset={50} duration={500}>Réalisations</Link>
+            </li>
         </ul>
         ) }
         

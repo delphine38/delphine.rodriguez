@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='HomeDiv' id='#home'>
+    <div className='HomeDiv' id='home'>
         <div className='HomeDiv2'>
             <div>
                 <p className='pTravaillons'>Travaillons ensemble</p>

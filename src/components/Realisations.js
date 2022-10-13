@@ -12,7 +12,7 @@ import html from '../images/skills/html.jpg';
 
 const Realisations = () => {
   return (
-    <div className='realisationsDiv' id='#realisations'>
+    <div className='realisationsDiv' id='realisations'>
         <p>Réalisations</p>
       <h2>Les projets que j'ai réalisés</h2>
 
