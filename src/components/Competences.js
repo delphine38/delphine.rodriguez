@@ -10,7 +10,7 @@ import github from '../images/skills/github.png';
 
 const Competences = () => {
   return (
-    <div className='competencesDiv'>
+    <div className='competencesDiv' id='mescompetences'>
       <p>Compétences</p>
       <h2>Ce que je continue d'améliorer à faire</h2>
 

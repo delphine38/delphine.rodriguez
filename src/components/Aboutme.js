@@ -3,7 +3,7 @@ import delphine from '../images/delphine.jpg';
 
 const Aboutme = () => {
   return (
-    <div className='container aboutMeDiv'>
+    <div className='container aboutMeDiv' id='about'>
       <div className='row aboutFlex'>
         <div className='col-6'>
           <p>A propos de moi 🖐 </p>

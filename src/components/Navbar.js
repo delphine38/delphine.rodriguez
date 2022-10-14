@@ -41,31 +41,39 @@ useEffect(() =>{
 
 
   return (
-<div>
-    <nav>
-        
-        <article className='nav'>
-            <img src= {velo} alt="vélo dans un ordinateur" width="100px" height="100px" />
-            {/* <article> */}
-                        <h1 className='mt-5'>Delphine RODRIGUEZ | Développeuse web Junior</h1>
-                    {/* </article> */}
-        </article>
-        {(toggleMenu || largeur > 500) && (
-
+    <div>
+        <nav>
             
+            <article className='nav'>
+                <img src= {velo} alt="vélo dans un ordinateur" width="100px" height="100px" />
+                {/* <article> */}
+                <h1 className='mt-5'>Delphine RODRIGUEZ | Développeuse web Junior</h1>
+                {/* </article> */}
+            </article>
+
+            {(toggleMenu || largeur > 500) && (
             <ul className='list'>
                 <li className='items'>
-                    <Link to="#home" spy={true} smooth={true} offset={50} duration={500}>Accueil</Link>
+                    <Link to="home" spy={true} smooth={true} offset={50} duration={500}>Accueil</Link>
                 </li>
-            <li className='items'>
-                <Link to="#realisations" spy={true} smooth={true} offset={50} duration={500}>Réalisations</Link>
-            </li>
-        </ul>
-        ) }
-        
-        {/* <button className='btn'>X</button> */}
-        <button onClick={toggleNavSmallScreen} className='btn'>X</button>
-    </nav>
+                <li className='items'>
+                    <Link to="realisations" spy={true} smooth={true} offset={50} duration={500}>Réalisations</Link>
+                </li>
+                <li className='items'>
+                    <Link to="mescompetences" spy={true} smooth={true} offset={50} duration={500}>Compétences</Link>
+                </li>
+                <li className='items'>
+                    <Link to="about" spy={true} smooth={true} offset={50} duration={500}>A propos de moi</Link>
+                </li>
+                <li className='items'>
+                    <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
+                </li>
+            </ul>
+            ) }
+            
+            {/* <button className='btn'>X</button> */}
+            <button onClick={toggleNavSmallScreen} className='btn'>X</button>
+        </nav>
 
     {/* <div className='container'>
         <div className='navbar'>
